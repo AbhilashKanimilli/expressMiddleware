@@ -1,0 +1,23 @@
+{
+	"name": "express-demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "NODE_ENV=production node server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"auth0-api-jwt-rsa-validation": "0.0.3",
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.18.3",
+		"cors": "^2.8.5",
+		"express": "^4.16.4",
+		"express-jwt": "^5.3.1",
+		"jwks-rsa": "^1.4.0",
+		"mongoose": "^5.4.8",
+		"superagent": "^4.1.0"
+	}
+}
